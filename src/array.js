@@ -12,8 +12,13 @@ let reduciraniniz = niz.reduce(function(broj, suma){
     return broj + suma
 }, 0)
 
+function joinanje(broj){
+    return broj.join(' ► ')
+}
+let joinaniniz = joinanje(niz)
+
 console.log("filter: ", filtriraniniz)
 console.log("map: ", mapiraniniz)
 console.log("reduce: ", reduciraniniz)
-console.log("join: ", niz.join(' ♪♫♪ '))
+console.log("join: ", joinaniniz)
 
