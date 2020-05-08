@@ -15,4 +15,5 @@ let reduciraniniz = niz.reduce(function(broj, suma){
 console.log("filter: ", filtriraniniz)
 console.log("map: ", mapiraniniz)
 console.log("reduce: ", reduciraniniz)
+console.log("join: ", niz.join(' ♪♫♪ '))
 
